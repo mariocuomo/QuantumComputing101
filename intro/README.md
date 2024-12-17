@@ -43,3 +43,12 @@ The spin of electrons or nuclei can be used to create qubits. The spin state (up
 - **Quantum Dots** <br>
 These are tiny semiconductor particles that can trap electrons. The quantum state of the trapped electron can be used as a qubit. Quantum dots are controlled using electrical gates.
 Each of these methods has its own advantages and challenges, and researchers are exploring all of them to find the most effective way to build scalable quantum computers.
+
+
+---
+**NOTE**
+
+It works with almost all markdown flavours (the below blank line matters).
+
+
+> In our exploration of Quantum Computing, **we will concentrate solely on the mathematical models created using qubits**, rather than delving into their physical implementation. This approach allows us to abstract away the complexities of hardware and focus on the theoretical underpinnings and computational advantages that qubits offer. By leveraging the principles of _superposition_, _entanglement_, and _interference_, we can develop and analyze quantum algorithms that solve problems more efficiently than classical methods. This theoretical focus will enable us to better understand the potential of quantum computing and its applications, without being constrained by the current technological limitations of qubit fabrication and manipulation.
