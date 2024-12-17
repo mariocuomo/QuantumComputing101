@@ -48,7 +48,33 @@ Each of these methods has its own advantages and challenges, and researchers are
 ---
 **NOTE**
 
-It works with almost all markdown flavours (the below blank line matters).
-
-
 > In our exploration of Quantum Computing, **we will concentrate solely on the mathematical models created using qubits**, rather than delving into their physical implementation. This approach allows us to abstract away the complexities of hardware and focus on the theoretical underpinnings and computational advantages that qubits offer. By leveraging the principles of _superposition_, _entanglement_, and _interference_, we can develop and analyze quantum algorithms that solve problems more efficiently than classical methods. This theoretical focus will enable us to better understand the potential of quantum computing and its applications, without being constrained by the current technological limitations of qubit fabrication and manipulation.
+
+---
+
+## Qubit
+A **qubit**, or **quantum bit**, is the fundamental unit of information in quantum computing. Unlike a classical bit, which can be either 0 or 1, a qubit can exist in a **superposition of both states simultaneously**. This means that a qubit can represent both 0 and 1 at the same time, thanks to the principles of quantum mechanics.
+
+A qubit can be mathematically represented as a **linear combination of its basis states**, typically denoted as **<mi>|0</mi><mo stretchy="false">⟩</mo>** and **<mi>|1</mi><mo stretchy="false">⟩</mo>**. The general state of a qubit can be written as:
+
+$$
+|\psi\rangle = \alpha|0\rangle + \beta|1\rangle
+$$
+
+
+<mi>α</mi> and <mi>β</mi> are **complex numbers** that represent the probability amplitudes of the qubit being in the <mi>|0</mi><mo stretchy="false">⟩</mo> and <mi>|1</mi><mo stretchy="false">⟩</mo> states, respectively. These amplitudes must satisfy the **normalization condition**:
+
+$$
+|\alpha|^2 + |\beta|^2 = 1
+$$
+
+Qubit can be visualized using the **Block Sphere**. <br>
+The Bloch sphere is a visual representation of the state of a **single qubit**. Imagine a sphere where any point on its surface represents a possible state of the qubit. Here’s a simple breakdown:
+
+- **Poles** <br>
+The north pole represents the state <mi>|0</mi><mo stretchy="false">⟩</mo> and the south pole represents the state <mi>|1</mi><mo stretchy="false">⟩</mo>.
+
+- **Superposition** <br>
+Any point on the surface of the sphere represents a superposition of <mi>|0</mi><mo stretchy="false">⟩</mo> and <mi>|1</mi><mo stretchy="false">⟩</mo>. The position on the sphere is determined by two angles, <mi>θ</mi> and <mi>φ</mi>, which describe the state of the qubit.
+
+
