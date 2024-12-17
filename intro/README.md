@@ -67,7 +67,7 @@ $$
 |\alpha|^2 + |\beta|^2 = 1
 $$
 
-Qubit can be visualized using the **Block Sphere**. <br>
+Qubit can be visualized using the **Bloch Sphere**. <br>
 The Bloch sphere is a visual representation of the state of a **single qubit**. Imagine a sphere where any point on its surface represents a possible state of the qubit. Here’s a simple breakdown:
 
 - **Poles** <br>
