@@ -18,8 +18,28 @@ Quantum computing differs from classical computing in several fundamental ways:
 
 4. **Interference**
      - **Classical Computing**: Does not utilize interference.
-     - Quantum Computing: Uses quantum interference to amplify correct answers and cancel out incorrect ones, improving the probability of arriving at the correct solution.
+     - **Quantum Computing**: Uses quantum interference to amplify correct answers and cancel out incorrect ones, improving the probability of arriving at the correct solution.
 
 5. **Processing Power**
      - **Classical Computing**: Processes information in a linear, step-by-step manner.
      - **Quantum Computing**: Can solve certain problems much faster by exploring many possible solutions simultaneously, making it particularly powerful for tasks like cryptography, optimization, and simulating molecular structures.
+
+
+But... physically, what are qubits? <br>
+Physically, qubits can be created using various quantum systems. Here are some common methods:
+
+- **Superconducting Circuits** <br>
+These use superconducting materials to create qubits. Superconducting qubits are made by cooling certain materials to very low temperatures, allowing them to exhibit quantum properties. These circuits can be manipulated using microwave pulses.
+
+- **Trapped Ions** <br>
+Individual ions (charged atoms) are trapped and manipulated using electromagnetic fields. The energy levels of these ions can represent qubit states. Lasers are used to control and read out the states of these ions.
+
+- **Photons** <br>
+Photons, or particles of light, can be used as qubits. The polarization state of a photon (the direction in which it oscillates) can represent different qubit states. Photons are manipulated using optical devices like beam splitters and wave plates.
+
+- **Spin Qubits** <br>
+The spin of electrons or nuclei can be used to create qubits. The spin state (up or down) represents the qubit states. These qubits are manipulated using magnetic fields and microwave radiation.
+
+- **Quantum Dots** <br>
+These are tiny semiconductor particles that can trap electrons. The quantum state of the trapped electron can be used as a qubit. Quantum dots are controlled using electrical gates.
+Each of these methods has its own advantages and challenges, and researchers are exploring all of them to find the most effective way to build scalable quantum computers.
