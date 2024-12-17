@@ -46,8 +46,7 @@ Each of these methods has its own advantages and challenges, and researchers are
 
 
 ---
-**NOTE**
-
+> [!IMPORTANT]
 > In our exploration of Quantum Computing, **we will concentrate solely on the mathematical models created using qubits**, rather than delving into their physical implementation. This approach allows us to abstract away the complexities of hardware and focus on the theoretical underpinnings and computational advantages that qubits offer. By leveraging the principles of _superposition_, _entanglement_, and _interference_, we can develop and analyze quantum algorithms that solve problems more efficiently than classical methods. This theoretical focus will enable us to better understand the potential of quantum computing and its applications, without being constrained by the current technological limitations of qubit fabrication and manipulation.
 
 ---
@@ -77,4 +76,27 @@ The north pole represents the state <mi>|0</mi><mo stretchy="false">⟩</mo> and
 - **Superposition** <br>
 Any point on the surface of the sphere represents a superposition of <mi>|0</mi><mo stretchy="false">⟩</mo> and <mi>|1</mi><mo stretchy="false">⟩</mo>. The position on the sphere is determined by two angles, <mi>θ</mi> and <mi>φ</mi>, which describe the state of the qubit.
 
+<div align="center">
+    <img src="https://github.com/mariocuomo/QuantumComputing101/blob/main/img/Bloch_sphere.png" width="200">
+</div>
+
+
+A qubit can be represented as a **vector** in a two-dimensional complex vector space.
+
+$$
+|\psi\rangle = \alpha|0\rangle + \beta|1\rangle = \begin{pmatrix}
+\alpha \\
+\beta \\
+\end{pmatrix} = \alpha \begin{pmatrix}
+1 \\
+0 \\
+\end{pmatrix} + \beta \begin{pmatrix}
+0 \\
+1 \\
+\end{pmatrix}
+$$
+
+---
+> [!IMPORTANT]
+> Some content may have been generated AI **and manually reviewed**.
 
