@@ -8,6 +8,7 @@ This repository contains experiments performed with IBM Quantum Learning.
 
 ### Learning Path
 - [Quantum Computing introduction](https://github.com/mariocuomo/QuantumComputing101/tree/main/intro)
+- [Measure your first qubit](https://github.com/mariocuomo/QuantumComputing101/tree/main/measure)
 - [Operators](https://github.com/mariocuomo/QuantumComputing101/tree/main/operators)
     - [Pauli-X](https://github.com/mariocuomo/QuantumComputing101/tree/main/operators/Pauli-X)
     - [Pauli-Y](https://github.com/mariocuomo/QuantumComputing101/tree/main/operators/Pauli-Y)
