@@ -8,7 +8,7 @@ $$
 
 In [intro](https://github.com/mariocuomo/QuantumComputing101/edit/main/intro/README.md) to Quantum Computing, we described that a **balanced superposition** for a single qubit is a quantum state where the qubit has equal probabilities of being measured in either of its basis states.
 
-Let's experiment with _IBM Quantum Learning_.
+Let's experiment with [_IBM Quantum Learning_](https://quantum.ibm.com/).
 
 <div align="center">
   <img src="https://github.com/mariocuomo/QuantumComputing101/blob/main/img/balancedsuperposition-measure.png">
@@ -25,4 +25,27 @@ $$
 
 2. **Measurement in Z Basis** <br>
 Finally, there is a measurement gate in the Z basis, which measures the qubit in the standard computational basis <mi>|0</mi><mo stretchy="false">⟩</mo> and <mi>|1</mi><mo stretchy="false">⟩</mo>. The result of this measurement is also stored in the classical bit (c4)
+
+
+<div align="center">
+  <img src="https://github.com/mariocuomo/QuantumComputing101/blob/main/img/balancedsuperposition-measureprob.png" width="800">
+</div>
+
+
+
+**Simulation code using Qiskit**
+
+```Qiskit
+from qiskit import QuantumRegister, ClassicalRegister, QuantumCircuit
+from numpy import pi
+
+qreg_q = QuantumRegister(1, 'q')
+creg_c = ClassicalRegister(4, 'c')
+circuit = QuantumCircuit(qreg_q, creg_c)
+
+circuit.h(qreg_q[0])
+circuit.barrier(qreg_q)
+# @phaseDisk
+circuit.measure(qreg_q[0], creg_c[0])
+```
 
